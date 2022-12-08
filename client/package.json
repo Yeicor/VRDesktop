@@ -1,0 +1,26 @@
+{
+  "name": "vr-desktop",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "VR",
+    "desktop"
+  ],
+  "license": "MIT",
+  "author": "Yeicor",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open"
+  },
+  "dependencies": {
+    "aframe": "^1.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.1",
+    "parcel-resolver-ignore": "^2.1.3",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "parcelIgnore": [
+    "api/.*"
+  ]
+}
